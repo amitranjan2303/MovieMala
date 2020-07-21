@@ -8,7 +8,7 @@
   ## [Get APK](https://github.com/amitranjan2303/MovieMala/blob/master/app-movie-mala.apk)
 
   # Developer Contact amitranjan2303@gmail.com
-  <------------------------- Screen Shots------------------------------->
+             # Screen Shot
   ![Alt text](https://github.com/amitranjan2303/LruCacheTest/blob/master/device-2020-07-21-234230.png "Home Page")
   ![Alt text](https://github.com/amitranjan2303/MovieMala/blob/master/device-2020-07-22-001246.png "Home Page With Favourate")
   ![Alt text](https://github.com/amitranjan2303/MovieMala/blob/master/device-2020-07-22-001100.png "Movie Details")
