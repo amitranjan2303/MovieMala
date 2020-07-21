@@ -1,7 +1,7 @@
 # # MovieMala
   # *In this android sample used
              1 Retrofit
-             2 RoomDB
+             2 RoomDB (Use for offline Storage)
              3 Kotlin and Kotlin Couritines
              4 MVVM
    This sample show movei list from Movie DB which need Bearer Token and API key in request to get response
