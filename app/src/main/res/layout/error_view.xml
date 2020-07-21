@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/error_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_error_icon"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_22dp"
+            android:layout_marginRight="@dimen/_22dp"
+            android:src="@drawable/ic_error_network" />
+
+        <TextView
+            android:id="@+id/tv_retry_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_error_icon"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="@dimen/_22dp"
+            android:background="@drawable/button_background_error"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/_15dp"
+            android:paddingBottom="@dimen/_15dp"
+            android:text="RETRY"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/_15sp" />
+
+    </RelativeLayout>
+</layout>

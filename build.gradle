@@ -1,0 +1,44 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+project.ext {
+    material_version = "1.0.0-rc01"
+    progess_bar = "1.0.1"
+    //Live Data
+    lifecycle_version = "2.2.0"
+    arch_version = "2.1.0"
+    //multidex
+    multidex_version = "2.0.1"
+    // retrofit
+    retrofit_version = "2.8.1"
+//    stetho
+    facebook_stetho_version = "1.5.1"
+    //Gson
+    gson_version = "2.6.0"
+    //progressbar
+    progess_bar="1.0.1"
+}
+
+buildscript {
+    ext.kotlin_version = "1.3.72"
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
